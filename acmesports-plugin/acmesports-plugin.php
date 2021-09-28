@@ -82,24 +82,24 @@ if (!class_exists('AcmesportsPlugin')) {
 		}
 
 
-		/* With basics scripts and admin page in place we can then call our external class file */
-		function activate()
+ 		function activate()
 		{
 			require_once plugin_dir_path(__FILE__) . 'inc/acmesports-plugin-activate.php';
 			AcmesportsPluginActivate::activate();
 		}
 
 		public function test_get()
-		{
-
+		{   /*file_get_contents() may cause server env issues. Would be nice to have a wp hook for this*/
 			$data = wp_remote_retrieve_body("https://delivery.oddsandstats.co/{$endpoint}/NFL.JSON?api_key=74db8efa2a6db279393b433d97c2bc843f8e32b0");
 		}
 
 		private function get_teams_list_array()
 		{
-
 			$endpoint   =   "team_list";
+			
 			return  json_decode(file_get_contents("https://delivery.oddsandstats.co/{$endpoint}/NFL.JSON?api_key=74db8efa2a6db279393b433d97c2bc843f8e32b0", ''), TRUE); // wp_remote_get ? 
+	        /*Could do more here with parameters or an iteration with a case:switch*/  
+	
 		}
 
 	    public function nfl_teams_table_function(){
