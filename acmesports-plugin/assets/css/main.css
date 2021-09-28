@@ -1,0 +1,25 @@
+body.page-template-default{
+    background-color: #ffffff;
+    
+}
+
+#nfl_table {
+ 
+     font-size: 0.8em;
+
+}
+#nfl_table th{
+    
+    background-color: #ffffff;
+
+} 
+
+#nfl-table_filter{
+    padding:1% 0% 1% 0%;
+    margin-right:-55px;
+    border-radius: 0px;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    padding: 0px 20px;
+}
