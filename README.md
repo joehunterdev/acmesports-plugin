@@ -4,7 +4,7 @@
 
 ## 🚀 Installation
 
-1. 📥 Download the plugin files and upload them to the `/wp-content/plugins/acmesports-plugin` directory, or install the plugin through the WordPress plugins screen directly.
+1. 📥 Download the plugin files and upload them to the `/wp-content/plugins/acmesports-plugin` directory, or install the plugin through the WordPress plugins screen directly. Alternativley you can zip them. 
 2. 🚀 Activate the plugin through the 'Plugins' screen in WordPress
 3. 📝 Use the shortcode `[nfl_data_teams_table]` to display the table on any page or post.
 
