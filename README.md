@@ -12,6 +12,11 @@
 
 The plugin includes a shortcode that can be used to display the NFL teams table on any page or post. Simply add the shortcode `[nfl_data_teams_table]` to the content of the page or post where you want the table to appear.
 
+
+## 📷 Screenshots
+
+![ACME Sports Plugin](acmesports-plugin-example.png)
+
 ## 📜 Changelog
 
 ### Version 1.2.0:
@@ -36,6 +41,4 @@ The plugin includes a shortcode that can be used to display the NFL teams table 
 
 - 🛠️ Make 1.5.0 versioned parameters available via a custom field inside admin.php?page so admins can easily change the following
 
-## 📷 Screenshots
 
-![ACME Sports Plugin](acmesports-plugin-example.png)
